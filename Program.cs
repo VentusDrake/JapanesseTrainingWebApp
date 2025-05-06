@@ -10,7 +10,7 @@ namespace BasicJapanesseTraining
 
             // Add services to the container.
             builder.Services.AddRazorPages();
-            builder.Services.AddTransient<IHiraganaService, HiraganaService>();
+            builder.Services.AddTransient<IKanaService, KanaService>();
 
             var app = builder.Build();
 
