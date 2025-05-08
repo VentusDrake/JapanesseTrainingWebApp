@@ -1,5 +1,10 @@
 ﻿@page
 @model IndexModel
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/index.css" />
+}
+
 @{
     ViewData["Title"] = "Home page";
 }
@@ -7,5 +12,4 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <h1>@Model.Hiragana.Character - @Model.Hiragana.Roumaji</h1>
 </div>

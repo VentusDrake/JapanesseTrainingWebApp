@@ -1,0 +1,15 @@
+﻿@page
+@model HiraganaModel
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/hiragana.css" />
+}
+
+@{
+    ViewData["Title"] = "Hiragana";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1>@Model.Hiragana.Character - @Model.Hiragana.Roumaji</h1>
+</div>
